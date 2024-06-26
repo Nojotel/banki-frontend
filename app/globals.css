@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --global-background: F1F5F9;
+}
+
+* {
+  box-sizing: border-box;
+  background-color: var(--global-background);
+  margin: 0 auto;
+}
